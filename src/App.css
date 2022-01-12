@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-pre{
+  width:20rem;
+}
+.todo{
+  display: flex;
+}
+li{
+  width:6rem
+}
+
+input{
+  width:15rem;
+  margin-top:2rem;
+}
+
+button{
+  margin-left: 1rem;
+}
