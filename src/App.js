@@ -3,11 +3,8 @@ import './App.css'
 
 
 const App = () => {
-  //für das inputfeld useState
 
-  const [task, setTask] = useState('');
   
-
   const todoReducer = (state, action) => {
     switch (action.type) {
       case 'ADD_TODO':
@@ -39,6 +36,10 @@ const App = () => {
 // den reducer nutzen, um übersichtlich alle verschiedenen Änderungen, welche unseren todos state betreffen,
 // auf einen Blick zu haben)
   const [todos, dispatchTodos] = useReducer(todoReducer, initialTodos);
+
+//für das inputfeld useState
+
+const [task, setTask] = useState('');
 
 
   const handleChangeInput = event => {
