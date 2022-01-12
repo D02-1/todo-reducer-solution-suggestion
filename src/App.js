@@ -39,7 +39,7 @@ const App = () => {
 
 //für das inputfeld useState
 
-const [task, setTask] = useState('');
+  const [task, setTask] = useState('');
 
 
   const handleChangeInput = event => {
