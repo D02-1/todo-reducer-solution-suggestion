@@ -3,14 +3,9 @@
   justify-content: center;
 }
 
-.todo-pre{
-  width:20rem;
-}
-.todo{
-  display: flex;
-}
+
 li{
-  width:6rem
+  width:16rem
 }
 
 input{
