@@ -79,13 +79,11 @@ const App = () => {
        
     <ul>
         {todos.map(todo => (
-        <div className="todo">
         <li key={todo.id} style={{textDecoration: todo.complete? "line-through":""}}>
           {todo.task}
         </li>
         <button onClick={() => handleDelete(todo.id)}>Delete</button>
         <button onClick={()=>markComplete(todo.id)}>Completed</button> 
-        </div>
       ))}
     </ul>
     </div>
