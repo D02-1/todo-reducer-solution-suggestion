@@ -67,9 +67,6 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="todo-pre">
-        <pre>{JSON.stringify(todos, undefined, 2)}</pre>
-      </div>
       <div className="input">
       <form onSubmit={handleSubmit}>
         <input
